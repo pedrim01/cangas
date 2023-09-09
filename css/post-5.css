@@ -1,0 +1,112 @@
+.elementor-kit-5 {
+	--e-global-color-primary: #faf4f4;
+	--e-global-color-secondary: #2FC61E;
+	--e-global-color-text: #faf4f4;
+	--e-global-color-accent: #2FC61E;
+	--e-global-color-de62614: #2FC61E;
+	--e-global-color-625ba44: #faf4f4;
+	--e-global-color-17af9b9: #2FC61E;
+	--e-global-color-a87b735: #2FC61E;
+	--e-global-color-3788da0: #3E3B38;
+	--e-global-color-4ccd651: #FFF3DE;
+	--e-global-typography-primary-font-family: "Roboto";
+	--e-global-typography-primary-font-weight: 600;
+	--e-global-typography-secondary-font-family: "Roboto";
+	--e-global-typography-secondary-font-weight: 400;
+	--e-global-typography-text-font-family: "Roboto";
+	--e-global-typography-text-font-size: 18px;
+	--e-global-typography-text-font-weight: 400;
+	--e-global-typography-accent-font-family: "Roboto";
+	--e-global-typography-accent-font-weight: 500;
+	font-family: "Roboto", Sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.elementor-kit-5 h1 {
+	font-family: "Roboto", Sans-serif;
+}
+
+.elementor-kit-5 h2 {
+	font-family: "Roboto", Sans-serif;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+	max-width: 1524px;
+}
+
+.e-con {
+	--container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+	margin-bottom: 0px;
+}
+
+.elementor-element {
+	--widgets-spacing: 0px;
+}
+
+	{}
+
+h1.entry-title {
+	display: var(--page-title-display);
+}
+
+.elementor-kit-5 e-page-transition {
+	background-color: #2FC61E;
+}
+
+.site-header {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+@media(max-width:1024px) {
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 1024px;
+	}
+
+	.e-con {
+		--container-max-width: 1024px;
+	}
+}
+
+@media(max-width:767px) {
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 767px;
+	}
+
+	.e-con {
+		--container-max-width: 767px;
+	}
+}
+
+/* Start Custom Fonts CSS */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('../fonts/GalanoClassic-Regular.eot');
+	src: url('../fonts/GalanoClassic-Regular.eot#iefix') format('embedded-opentype'),
+		url('../fonts/GalanoClassic-Regular.woff2') format('woff2'),
+		url('../fonts/GalanoClassic-Regular.woff') format('woff'),
+		url('../fonts/GalanoClassic-Regular.ttf') format('truetype'),
+		url('../fonts/GalanoClassic-Regular.svg#GalanoClassic') format('svg');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('../fonts/GalanoClassic-Bold.eot');
+	src: url('../fonts/GalanoClassic-Bold.eot#iefix') format('embedded-opentype'),
+		url('../fonts/GalanoClassic-Bold.woff2') format('woff2'),
+		url('../fonts/GalanoClassic-Bold.woff') format('woff'),
+		url('../fonts/GalanoClassic-Bold.ttf') format('truetype'),
+		url('../fonts/GalanoClassic-Bold.svg#GalanoClassic') format('svg');
+}
+
+/* End Custom Fonts CSS */
