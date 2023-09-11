@@ -2564,7 +2564,7 @@ body.rtl .elementor-2858 .elementor-element.elementor-element-23e0366 {
 }
 
 .elementor-2858 .elementor-element.elementor-element-a66ba61>.elementor-container {
-	min-height: 1214px;
+	min-height: 760px;
 }
 
 .elementor-2858 .elementor-element.elementor-element-a66ba61:not(.elementor-motion-effects-element-type-background),
@@ -4787,7 +4787,7 @@ body.elementor-page-2858>.elementor-motion-effects-container>.elementor-motion-e
 	}
 
 	.elementor-2858 .elementor-element.elementor-element-8e8ac00>.elementor-element-populated {
-		margin: 320px 20px 0px 20px;
+		margin: 0px 20px 0px 0px;
 		--e-column-margin-right: 20px;
 		--e-column-margin-left: 20px;
 		padding: 0px 0px 0px 0px;
