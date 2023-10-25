@@ -164,7 +164,7 @@ body.rtl .elementor-2858 .elementor-element.elementor-element-f3342b1 {
 
 .elementor-2858 .elementor-element.elementor-element-0b5dfc1:not(.elementor-motion-effects-element-type-background),
 .elementor-2858 .elementor-element.elementor-element-0b5dfc1>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-image: url("../images/segunda-sessao-gimena-vendas-scaled.jpg");
+	/* background-image: url("../images/segunda-sessao-gimena-vendas-scaled.jpg"); */
 	background-position: top top;
 	background-repeat: no-repeat;
 	background-size: contain;
