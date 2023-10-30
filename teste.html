@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel de Imagens</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <style>
+        .carousel-container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div>
+                <img src="images/Depoimento-G-2-768x1365.jpg" alt="Image 1">
+            </div>
+            <div>
+                <img src="images/Depoimento-G-2-768x1365.jpg" alt="Image 2">
+            </div>
+            <div>
+                <img src="images/Depoimento-G-2-768x1365.jpg" alt="Image 3">
+            </div>
+            <div>
+                <img src="images/Depoimento-G-2-768x1365.jpg" alt="Image 4">
+            </div>
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.carousel').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                infinite: true,
+                dots: true,
+                fade: true, // Ativar transição de desvanecimento
+                cssEase: 'linear' // Efeito de transição suave
+            });
+        });
+    </script>
+</body>
+</html>
