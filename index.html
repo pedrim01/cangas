@@ -4523,6 +4523,11 @@
 
   <!-- scripts do google analytics -->
   <script>
+    //black friday
+    document.getElementById("black_friday").addEventListener("click", function () {
+      gtag('event', 'black_friday', { 'debug_mode': true });
+    });
+
     document.getElementById("telegram_id").addEventListener("click", function () {
       gtag('event', 'telegram_id', { 'debug_mode': true });
     });
