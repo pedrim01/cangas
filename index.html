@@ -6,6 +6,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KHBKLR3NP8">
 
   </script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -554,8 +555,19 @@
   class="page-template page-template-elementor_canvas page page-id-2858 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2858 e--ua-blink e--ua-chrome e--ua-webkit vsc-initialized"
   data-elementor-device-mode="desktop" cz-shortcut-listen="true">
 
+  
+
   <div data-elementor-type="wp-page" data-elementor-id="2858"
     class="elementor elementor-2858 elementor-motion-effects-parent">
+    
+    <div class="z-40 flex flex-col justify-center items-center fixed  right-5 bottom-5 text-[#2FC61E]">
+
+        <a id="suport_id" href="https://t.me/cangastips" target="_blank">
+          <i aria-hidden="true" class="fa-2x fa fa-commenting"></i>
+        </a>
+        <span class="font-bold ">Suporte</span>
+    </div>
+    
 
     <section
       class="relative elementor-section elementor-top-section elementor-element elementor-element-d76ffba elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default"
@@ -733,6 +745,8 @@
               </a>
             </span>
           </div>
+
+          
         </div>
 
       </div>
@@ -4526,9 +4540,14 @@
 
   <!-- scripts do google analytics -->
   <script>
+ 
     //black friday
     document.getElementById("black_friday").addEventListener("click", function () {
       gtag('event', 'black_friday', { 'debug_mode': true });
+    });
+
+    document.getElementById("suport_id").addEventListener("click", function () {
+      gtag('event', 'suport_id', { 'debug_mode': true });
     });
 
     document.getElementById("telegram_id").addEventListener("click", function () {
